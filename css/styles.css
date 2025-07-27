@@ -4420,32 +4420,7 @@ td:last-child {
   }
 }
 
-.typing-name {
-  font-family: monospace;
-  font-size: 40px;
-  color: black;
-  width: fit-content;
-  margin: 0 auto;
-  border-right: 2px solid white;
-  white-space: nowrap;
-  overflow: hidden;
-  animation: typing 6s steps(13, end), blink 0.5s step-end infinite;
-}
 
-@keyframes typing {
-  from {
-    width: 0;
-  }
-  to {
-    width: 13ch;
-  } /* 13 characters = "Muhammad Umer" */
-}
-
-@keyframes blink {
-  50% {
-    border-color: transparent;
-  }
-}
 
 
 .name {
