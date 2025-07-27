@@ -4460,3 +4460,106 @@ td:last-child {
     transform: translateY(0);
   }
 }
+
+.social-link {
+  color: #ccc; /* default color */
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.social-link.fb-link:hover {
+  color: #3b5998; /* Facebook blue */
+}
+
+.social-link.twitter-link:hover {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.social-link.instagram-link:hover {
+  color: #e1306c; /* Instagram pinkish */
+}
+
+.social-link.tiktok-link:hover {
+  color: black; /* TikTok teal */
+}
+
+.social-link.snapchat-link:hover {
+  color: #fffc00; /* Snapchat yellow */
+}
+
+.social-link.dribbble-link:hover {
+  color: #ea4c89; /* Dribbble pink */
+}
+
+.social-link.pinterest-link:hover {
+  color: #bd081c; /* Pinterest red */
+}
+
+.s-intro__social {
+  background-color: #111;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.link-list a {
+  color: #ccc; /* Default text color for dark theme */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+/* Hover colors per platform */
+.link-list a[href*="facebook"] {
+  color: #ccc;
+}
+.link-list a[href*="facebook"]:hover {
+  color: #3b5998; /* Facebook Blue */
+}
+
+.link-list a[href*="instagram"] {
+  color: #ccc;
+}
+.link-list a[href*="instagram"]:hover {
+  color: #e1306c; /* Instagram Pink */
+}
+
+.link-list a[href*="snapchat"] {
+  color: #ccc;
+}
+.link-list a[href*="snapchat"]:hover {
+  color: #fffc00; /* Snapchat Yellow */
+}
+
+.link-list a[href*="tiktok"] {
+  color: #ccc;
+}
+.link-list a[href*="tiktok"]:hover {
+  color:black; /* TikTok Blue */
+}
+
+.link-list a[href*="hostinger"] {
+  color: #ccc;
+}
+
+.s-footer__social a {
+  color: #ccc;
+  font-size: 20px;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+.s-footer__social a.facebook:hover {
+  color: #1877f2;
+}
+
+.s-footer__social a.snapchat:hover {
+  color: #fffc00;
+}
+
+.s-footer__social a.instagram:hover {
+  color: #e1306c;
+}
+
+.s-footer__social a.tiktok:hover {
+  color:black;
+}
