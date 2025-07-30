@@ -4563,3 +4563,52 @@ td:last-child {
 .s-footer__social a.tiktok:hover {
   color:black;
 }
+.skills-container {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+  gap: 30px;
+  padding: 20px;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100px;
+}
+
+.skill-icon {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.5s ease, box-shadow 0.3s ease;
+}
+
+.skill-icon i {
+  font-size: 50px;
+}
+
+.skill-icon:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5);
+}
+
+.skill-item small {
+  margin-top: 8px;
+  color:black;
+  font-size: 16px;
+  font-family: 'El Messiri', sans-serif;
+  letter-spacing: 0.3px;
+}
