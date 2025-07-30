@@ -4452,6 +4452,11 @@ td:last-child {
   font-style: italic;
   letter-spacing: 2px;
 }
+   @media (max-width: 600px) {
+        .signature-text {
+            font-size:32px;
+        }
+    }
 
 /* Animation */
 @keyframes fadeInSignature {
@@ -4573,7 +4578,7 @@ td:last-child {
   flex-wrap: wrap;
   justify-content: center;
   cursor: pointer;
-  gap: 30px;
+  gap:50px;
   padding: 20px;
 }
 
@@ -4609,6 +4614,8 @@ td:last-child {
   margin-top: 8px;
   color:black;
   font-size: 16px;
-  font-family: 'El Messiri', sans-serif;
+font-family: var(--font-1);
   letter-spacing: 0.3px;
 }
+
+  
