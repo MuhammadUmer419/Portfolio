@@ -4618,4 +4618,130 @@ font-family: var(--font-1);
   letter-spacing: 0.3px;
 }
 
-  
+   .project-links {
+        list-style: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+    .project-links li {
+        margin-bottom: 15px;
+    }
+.project-links a {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #f0f0f0;
+    border-left: 5px solid black;
+    border-radius: 8px;
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+    font-size:14px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+
+}
+
+.project-links a:hover {
+    background: white;
+    color: black;
+    border-left-color:black;
+    animation: blinkEffect 0.6s linear infinite;
+}
+
+@keyframes blinkEffect {
+    0% {
+        box-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff;
+    }
+    50% {
+        box-shadow: 0 0 25px #00e0ff, 0 0 50px #00aaff;
+    }
+    100% {
+        box-shadow: 0 0 10px #00e0ff, 0 0 20px #00e0ff;
+    }
+}
+
+
+    /* MORE PROJECTS NOTICE BOX */
+    .more-projects-box {
+        background: #fdfdfd;
+        border-left: 5px solid black;
+        padding: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
+    .more-projects-box h3 {
+        margin-bottom: 10px;
+        font-size: 12px;
+        color: #333;
+    }
+
+    .more-projects-box p {
+        margin: 0;
+        font-size:12px;
+        color: #555;
+    }
+
+    .more-projects-box a {
+        color:black;
+        text-decoration: underline;
+        font-weight: 600;
+    }
+    html {
+    scroll-behavior: smooth;
+}
+
+
+.link-list {
+    list-style: none;
+    padding-left: 0;
+    margin-top: 10px;
+}
+
+.link-list li {
+    margin-bottom: 12px;
+}
+
+.contact-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size:18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #333;
+    transition: all 0.3s ease;
+}
+
+/* Email Hover */
+.contact-link.email-link:hover {
+    color: #6c63ff; /* Soft purple */
+}
+
+.email-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-link.email-link:hover .email-icon {
+    color: #6c63ff;
+    transform: scale(1.2) rotate(-5deg);
+}
+
+/* WhatsApp Hover */
+.contact-link.whatsapp-link:hover {
+    color: #25D366; /* WhatsApp green */
+}
+
+.whatsapp-icon {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-link.whatsapp-link:hover .whatsapp-icon {
+    color: #25D366;
+    transform: scale(1.3) rotate(5deg);
+}
